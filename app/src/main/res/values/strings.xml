@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="addTask">AddTask</string>
+    <string name="showComp">ShowCompleted</string>
+</resources>

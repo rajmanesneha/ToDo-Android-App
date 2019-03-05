@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textTask"
+       android:layout_centerHorizontal="true"
+        android:layout_margin="1dp"
+        android:layout_alignParentTop="true"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textTask"
+        android:orientation="vertical"
+        android:background="#00ff00"
+       />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textDesc"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="1dp"
+        android:layout_below="@+id/textTask"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textDesc"
+        android:orientation="vertical"
+        android:background="#0000ff"
+        android:id="@+id/view" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@+id/textDesc"
+        android:clickable="true"
+        android:isScrollContainer="true" />
+    <!--<Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSave"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/datePicker"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCancel"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datePicker"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonCancel">
+
+    </ScrollView>-->
+</RelativeLayout>
